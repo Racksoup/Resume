@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connor Rack - Resume</title>
+  <style>
+    @page {
+      size: Letter;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #e5e5e5;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      line-height: 1.25;
+    }
+
+    .page {
+      width: 8.5in;
+      height: 11in;
+      margin: 20px auto;
+      background: white;
+      padding: 0.55in 0.6in;
+      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+
+    header {
+      border-bottom: 2px solid #111;
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .contact {
+      margin-top: 5px;
+      font-size: 11px;
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 13px;
+    }
+
+    h2 {
+      margin: 0 0 6px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 2px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 11.5px;
+    }
+
+    .job {
+      margin-bottom: 9px;
+    }
+
+    .job-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .company {
+      font-size: 11px;
+      color: #333;
+      margin-bottom: 3px;
+    }
+
+    ul {
+      margin: 0 0 0 16px;
+      padding: 0;
+      font-size: 11px;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 18px;
+      font-size: 11px;
+    }
+
+    .education-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 11.5px;
+    }
+
+    .note {
+      font-size: 10px;
+      color: #555;
+      margin-top: 3px;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        margin: 0;
+        width: 8.5in;
+        height: 11in;
+        box-shadow: none;
+        page-break-after: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Connor Rack</h1>
+      <div class="contact">
+        Ottawa, ON | connor.rack@yahoo.com | Phone: 613-869-2343 | GitHub: github.com/Racksoup
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Profile</h2>
+      <p>
+        Customer-focused and technically capable worker with experience in food service, retail, delivery, sales, and general labour. Comfortable working with customers, coworkers, point-of-sale systems, and fast-paced environments. Currently studying Cognitive Science at Carleton University while independently building websites and game-related programming projects. Seeking flexible part-time work in a social and active environment.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-title">
+          <span>Baker / Team Member</span>
+          <span>Tim Hortons | Apr 2025 - Mar 2026</span>
+        </div>
+        <div class="company">Food Service / Customer Service</div>
+        <ul>
+          <li>Prepared food and baked goods while maintaining speed, quality, and cleanliness standards.</li>
+          <li>Served customers in a fast-paced environment using point-of-sale systems.</li>
+          <li>Worked with coworkers during busy shifts to keep service moving efficiently.</li>
+          <li>Handled stocking, cleaning, and routine opening or closing duties.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">
+          <span>Sales / Technical Support</span>
+          <span>Weed Man | Feb 2025 - Apr 2025</span>
+        </div>
+        <div class="company">Customer Service / Sales Environment</div>
+        <ul>
+          <li>Communicated with customers about services, scheduling, and account information.</li>
+          <li>Used company software and customer management tools to support daily operations.</li>
+          <li>Worked in a team environment with performance goals and customer follow-up tasks.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">
+          <span>Delivery Driver</span>
+          <span>River Pizza / Uber Eats</span>
+        </div>
+        <div class="company">Food Delivery / Independent Work</div>
+        <ul>
+          <li>Completed deliveries efficiently while maintaining professional customer service.</li>
+          <li>Managed routes, timing, and order accuracy under time pressure.</li>
+          <li>Handled cash, electronic transactions, and customer communication.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">
+          <span>Cashier / Front Counter Staff</span>
+          <span>Bananas Beach Grill & Rum Shack, Petrie Island</span>
+        </div>
+        <div class="company">Seasonal Restaurant Work</div>
+        <ul>
+          <li>Operated the cash register and handled customer transactions accurately.</li>
+          <li>Provided friendly service in a busy seasonal restaurant environment.</li>
+          <li>Maintained an organized front counter and assisted with general restaurant tasks.</li>
+        </ul>
+      </div>
+
+    <section class="section">
+      <h2>Projects & Interests</h2>
+
+      <div class="job">
+        <div class="job-title">
+          <span>Personal Website & Programming Projects</span>
+        </div>
+
+        <ul>
+          <li>Build and maintain personal website and programming projects using modern web technologies.</li>
+          <li>Interested in game systems, user experience, storytelling, and interactive design.</li>
+          <li>Comfortable learning software, troubleshooting technical issues, and adapting to new systems quickly.</li>
+          <li>Active lifestyle with strong time management and self-directed learning habits.</li>
+        </ul>
+      </div>
+    </section>
+      
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>Smart Serve Certification</div>
+        <div>Accurate & Efficient</div>
+        <div>Teamwork in Fast-Paced Environments</div>
+        <div>Customer Service, Communication</div>
+        <div>Game Development</div>
+        <div>Relaxed & Positive Attitude</div>
+        <div>Website Development</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+
+      <div class="education-line">
+        <strong>Cognitive Science</strong>
+        <span>Carleton University | Entering 2nd Year</span>
+      </div>
+
+      <p class="note">
+        Studying cognition, psychology, computer systems, communication, and interdisciplinary problem solving. Strong interest in technology, learning systems, and human behaviour.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
